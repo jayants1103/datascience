@@ -1,0 +1,6 @@
+Average time on 2 nodes is12.441066666667 seconds 
+Average time on 2 nodes is12.773 seconds 
+Average time on 3 nodes is15.1798 seconds 
+Average time on 4 nodes is17.830533333333 seconds 
+Average time on 5 nodes is24.201866666667 seconds 
+Average time on 2 nodes is19.351536633663 seconds 

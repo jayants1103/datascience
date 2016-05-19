@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#powering on the machines
+echo "" > /var/www/jproject.ca/docs/spark/nodes.txt
+echo "" > /var/www/jproject.ca/docs/spark/output.txt
+echo "" > /var/www/jproject.ca/docs/spark/output2.txt
+source /home/anshuman/devstack/openrc
+#echo "starting to power on...worker 1"
+nova start worker1
+#echo "starting worker 2"
+nova start worker2
+
+while ! ping -c1 172.24.42.5 &>/dev/null;
+do
+sleep 2
+done
+echo "Worker 1 is up"
+
+while ! ping -c1 172.24.42.6 &>/dev/null;
+do
+sleep 2
+done
+echo "Worker 2 is up"
+
+echo "complete" > /var/www/jproject.ca/docs/spark/output2.txt

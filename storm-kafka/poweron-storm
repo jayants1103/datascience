@@ -1,0 +1,62 @@
+#!/bin/bash
+
+source /home/anshuman/devstack/openrc
+
+#powering on machines
+#echo "Starting nimbus"
+nova start "Nimbus"
+#echo "Starting worker 1"
+nova start "Storm Worker 1"
+#echo "Starting worker 2"
+nova start "Storm worker 2"
+#echo "Starting worker 3"
+nova start "Storm worker 3"
+#echo "Starting worker 4"
+nova start "Storm worker 4"
+#echo "Starting zookeeper"
+nova start "Zookeeper"
+nova start kafka
+echo "pinging"
+
+while ! ping -c1 172.24.42.7 &>/dev/null;
+do
+sleep 2
+done
+echo "Nimbus is up"
+
+while ! ping -c1 172.24.42.8 &>/dev/null;
+do
+sleep 2
+done
+echo "Zookeeper is up"
+
+while ! ping -c1 172.24.42.15 &>/dev/null;
+do
+sleep 2
+done
+echo "Slave 1 is up"
+
+while ! ping -c1 172.24.42.16 &>/dev/null;
+do
+sleep 2
+done
+echo "slave 2 is up"
+
+while ! ping -c1 172.24.42.17 &>/dev/null;
+do
+sleep 2
+done
+echo "slave 3 is up"
+
+while ! ping -c1 172.24.42.18 &>/dev/null;
+do
+sleep 2
+done
+echo "slave 4 is up"
+
+while ! ping -c1 172.24.42.20 &>/dev/null;
+do sleep 2
+done
+echo "Kafka is up"
+
+echo "complete" > /var/www/jproject.ca/docs/storm-kafka/output2.txt

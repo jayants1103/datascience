@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nova stop worker1
+nova stop worker2

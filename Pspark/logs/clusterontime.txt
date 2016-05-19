@@ -1,0 +1,89 @@
+
+******************************Loop starts*********************
+
+******************************Loop starts*********************
+
+******************************Loop starts*********************
+
+******************************Loop starts*********************
+
+the average time is 8.1027 seconds
+ Loop complete
+******************************Loop starts*********************
+
+the average time is 7.45365 seconds
+ Loop complete
+******************************Loop starts*********************
+
+the average time is 8.21415 seconds
+ Loop complete
+******************************Loop starts*********************
+
+the average time is 9.6454 seconds
+ Loop complete
+******************************Loop starts*********************
+
+the average time is 9.88 seconds
+ Loop complete
+******************************Loop starts*********************
+
+the average time is 11.49995 seconds
+ Loop complete
+******************************Loop starts*********************
+
+******************************Loop starts*********************
+10- for 2 nodes time is 8.9051
+20- for 2 nodes time is 8.8646
+30- for 2 nodes time is 8.9342
+40- for 2 nodes time is 8.433
+50- for 2 nodes time is 8.5672
+60- for 2 nodes time is 8.9307
+70- for 2 nodes time is 8.8699
+80- for 2 nodes time is 8.9061
+90- for 2 nodes time is 8.9054
+100- for 2 nodes time is 8.857
+
+the average time is 8.863753 seconds
+ Loop complete
+******************************Loop starts*********************
+10- for 3 nodes time is 10.521
+20- for 3 nodes time is 10.4669
+30- for 3 nodes time is 10.488
+40- for 3 nodes time is 10.4943
+50- for 3 nodes time is 10.5055
+60- for 3 nodes time is 10.5223
+70- for 3 nodes time is 10.5059
+80- for 3 nodes time is 10.5454
+90- for 3 nodes time is 10.5093
+100- for 3 nodes time is 10.4534
+
+the average time is 10.552204 seconds
+ Loop complete
+******************************Loop starts*********************
+10- for 4 nodes time is 10.6617
+20- for 4 nodes time is 10.5709
+30- for 4 nodes time is 10.6267
+40- for 4 nodes time is 10.613
+50- for 4 nodes time is 10.612
+60- for 4 nodes time is 10.7073
+70- for 4 nodes time is 10.7262
+80- for 4 nodes time is 10.6067
+90- for 4 nodes time is 10.6102
+100- for 4 nodes time is 10.5998
+
+the average time is 10.660863 seconds
+ Loop complete
+******************************Loop starts*********************
+10- for 5 nodes time is 12.7459
+20- for 5 nodes time is 12.751
+30- for 5 nodes time is 12.8656
+40- for 5 nodes time is 12.7367
+50- for 5 nodes time is 12.726
+60- for 5 nodes time is 12.7349
+70- for 5 nodes time is 12.7742
+80- for 5 nodes time is 12.7499
+90- for 5 nodes time is 12.768
+100- for 5 nodes time is 12.7601
+
+the average time is 12.780531 seconds
+ Loop complete

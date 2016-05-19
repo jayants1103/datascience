@@ -1,0 +1,43 @@
+#!/bin/bash
+
+source /home/anshuman/devstack/openrc
+echo "" > /var/www/jproject.ca/docs/spark/output.txt
+echo "" > /var/www/jproject.ca/docs/spark/output2.txt
+slavesInMaster=0
+slavesInWorker=0
+nodes=`cat /var/www/jproject.ca/docs/spark/nodes.txt`
+#tail /var/www/jproject.ca/docs/nodes.txt > $nodes
+#echo "incoming value $nodes"
+if [ $nodes -eq 1 ]
+then
+	slavesInWorker=1
+elif [ $nodes -eq 2 ]
+then
+	slavesInMaster=1
+	slavesInWorker=1
+elif [ $nodes -eq 3 ]
+then
+        slavesInMaster=1
+        slavesInWorker=2
+elif [ $nodes -eq 4 ]
+then
+        slavesInMaster=2
+        slavesInWorker=2
+elif [ $nodes -eq 5 ]
+then
+        slavesInMaster=2
+        slavesInWorker=3
+fi
+#echo "worker $slavesInWorker"
+#echo "master $slavesInMaster"
+
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.6 "sudo sed -i 's/SPARK_WORKER_INSTANCES=./SPARK_WORKER_INSTANCES=$slavesInWorker/' spark-1.5.1/conf/spark-env.sh"
+#echo "tried worker"
+#setting the slaves in master
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.5 "sudo sed -i 's/SPARK_WORKER_INSTANCES=./SPARK_WORKER_INSTANCES=$slavesInMaster/' spark-1.5.1/conf/spark-env.sh"
+#echo "tried master"
+#starting the cluster
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.5 "bash spark-1.5.1/sbin/start-all.sh &"
+#echo "tried starting"
+
+

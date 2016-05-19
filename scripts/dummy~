@@ -1,0 +1,15 @@
+#!/bin/bash
+#dummy 
+
+echo "starting.."
+#nova start worker1
+#nova start worker2
+
+#sleeping till the workers are on
+#sleep 5
+#echo "awake"
+#navigate to the virtual machine's vagrant folder
+cd ~/vagrant/worker1
+vagrant ssh -c "sudo sed -i 's/SPARK_WORKER_INSTANCES=./SPARK_WORKER_INSTANCES=2/' spark-1.5.1/conf/spark-env.sh" 
+#nova stop worker1
+echo "done.."

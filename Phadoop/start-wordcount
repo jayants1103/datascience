@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/bin/hadoop jar /home/ubuntu/jars/gendercounthadoop.jar genderCount /data/small.txt /data/output"

@@ -1,0 +1,342 @@
+Looping for 100 iterations
+
+
+******************************Loop starts*********************
+1- for 4 nodes time is 32.7334
+2- for 4 nodes time is 33.8828
+3- for 4 nodes time is 33.1729
+4- for 4 nodes time is 32.7279
+5- for 4 nodes time is 33.3979
+6- for 4 nodes time is 32.931
+7- for 4 nodes time is 32.9562
+8- for 4 nodes time is 32.8927
+9- for 4 nodes time is 32.6862
+10- for 4 nodes time is 33.1022
+11- for 4 nodes time is 32.6959
+12- for 4 nodes time is 32.5138
+13- for 4 nodes time is 33.2167
+14- for 4 nodes time is 32.3417
+15- for 4 nodes time is 32.5542
+16- for 4 nodes time is 32.9757
+17- for 4 nodes time is 32.4405
+18- for 4 nodes time is 32.6579
+19- for 4 nodes time is 33.4404
+20- for 4 nodes time is 33.1634
+21- for 4 nodes time is 32.7764
+22- for 4 nodes time is 32.6716
+23- for 4 nodes time is 32.5394
+24- for 4 nodes time is 33.3361
+25- for 4 nodes time is 32.4536
+26- for 4 nodes time is 33.0923
+27- for 4 nodes time is 32.957
+28- for 4 nodes time is 32.6467
+29- for 4 nodes time is 33.3347
+30- for 4 nodes time is 32.8145
+31- for 4 nodes time is 32.809
+32- for 4 nodes time is 33.3521
+33- for 4 nodes time is 33.9795
+34- for 4 nodes time is 32.8354
+35- for 4 nodes time is 32.8948
+36- for 4 nodes time is 32.4525
+37- for 4 nodes time is 33.1096
+38- for 4 nodes time is 33.2797
+39- for 4 nodes time is 32.5239
+40- for 4 nodes time is 33.6776
+41- for 4 nodes time is 32.4784
+42- for 4 nodes time is 32.6768
+43- for 4 nodes time is 33.0495
+44- for 4 nodes time is 33.1828
+45- for 4 nodes time is 33.5157
+46- for 4 nodes time is 32.8705
+47- for 4 nodes time is 32.7919
+48- for 4 nodes time is 32.9077
+49- for 4 nodes time is 32.5371
+50- for 4 nodes time is 32.817
+51- for 4 nodes time is 33.4358
+52- for 4 nodes time is 32.5735
+53- for 4 nodes time is 32.8889
+54- for 4 nodes time is 33.6069
+55- for 4 nodes time is 33.3407
+56- for 4 nodes time is 33.2522
+57- for 4 nodes time is 33.7356
+58- for 4 nodes time is 32.9192
+59- for 4 nodes time is 32.9063
+60- for 4 nodes time is 33.5248
+61- for 4 nodes time is 33.3301
+62- for 4 nodes time is 33.2626
+63- for 4 nodes time is 32.9458
+64- for 4 nodes time is 32.7963
+65- for 4 nodes time is 33.2589
+66- for 4 nodes time is 33.0374
+67- for 4 nodes time is 32.7255
+68- for 4 nodes time is 32.7534
+69- for 4 nodes time is 32.9743
+70- for 4 nodes time is 32.7502
+71- for 4 nodes time is 32.8389
+72- for 4 nodes time is 33.1103
+73- for 4 nodes time is 32.292
+74- for 4 nodes time is 32.606
+75- for 4 nodes time is 32.8994
+76- for 4 nodes time is 32.7596
+77- for 4 nodes time is 33.1767
+78- for 4 nodes time is 32.81
+79- for 4 nodes time is 33.6814
+80- for 4 nodes time is 32.9864
+81- for 4 nodes time is 32.5878
+82- for 4 nodes time is 32.8844
+83- for 4 nodes time is 33.3802
+84- for 4 nodes time is 33.1269
+85- for 4 nodes time is 32.9358
+86- for 4 nodes time is 33.1073
+87- for 4 nodes time is 33.1418
+88- for 4 nodes time is 33.3463
+89- for 4 nodes time is 32.8817
+90- for 4 nodes time is 32.8185
+91- for 4 nodes time is 33.1585
+92- for 4 nodes time is 33.0744
+93- for 4 nodes time is 32.7506
+94- for 4 nodes time is 33.2886
+95- for 4 nodes time is 33.0154
+96- for 4 nodes time is 33.463
+97- for 4 nodes time is 33.0055
+98- for 4 nodes time is 32.8405
+99- for 4 nodes time is 33.3192
+100- for 4 nodes time is 32.9785
+
+the average time is 32.991312 seconds
+ Loop complete
+******************************Loop starts*********************
+1- for 2
+ nodes time is 30.1031
+2- for 2
+ nodes time is 30.0404
+3- for 2
+ nodes time is 30.2052
+4- for 2
+ nodes time is 30.0927
+5- for 2
+ nodes time is 29.0282
+6- for 2
+ nodes time is 29.2094
+7- for 2
+ nodes time is 27.6139
+8- for 2
+ nodes time is 28.3112
+9- for 2
+ nodes time is 29.3534
+10- for 2
+ nodes time is 30.3583
+11- for 2
+ nodes time is 28.5403
+12- for 2
+ nodes time is 28.9088
+13- for 2
+ nodes time is 29.1068
+14- for 2
+ nodes time is 28.4896
+15- for 2
+ nodes time is 29.5058
+16- for 2
+ nodes time is 29.4129
+17- for 2
+ nodes time is 29.7064
+18- for 2
+ nodes time is 28.3451
+19- for 2
+ nodes time is 30.071
+20- for 2
+ nodes time is 27.6347
+21- for 2
+ nodes time is 29.6282
+22- for 2
+ nodes time is 29.2769
+23- for 2
+ nodes time is 29.4925
+24- for 2
+ nodes time is 29.6202
+25- for 2
+ nodes time is 28.8996
+26- for 2
+ nodes time is 29.1087
+27- for 2
+ nodes time is 29.1362
+28- for 2
+ nodes time is 29.4682
+29- for 2
+ nodes time is 28.9376
+30- for 2
+ nodes time is 29.1141
+31- for 2
+ nodes time is 27.3029
+32- for 2
+ nodes time is 28.7035
+33- for 2
+ nodes time is 28.2495
+34- for 2
+ nodes time is 29.2601
+35- for 2
+ nodes time is 29.1418
+36- for 2
+ nodes time is 28.8297
+37- for 2
+ nodes time is 29.2819
+38- for 2
+ nodes time is 30.3153
+39- for 2
+ nodes time is 29.476
+40- for 2
+ nodes time is 28.8864
+41- for 2
+ nodes time is 28.7364
+42- for 2
+ nodes time is 28.5227
+43- for 2
+ nodes time is 27.6214
+44- for 2
+ nodes time is 29.7495
+45- for 2
+ nodes time is 29.1486
+46- for 2
+ nodes time is 29.3936
+47- for 2
+ nodes time is 29.3689
+48- for 2
+ nodes time is 28.0898
+49- for 2
+ nodes time is 29.6807
+50- for 2
+ nodes time is 28.8434
+51- for 2
+ nodes time is 28.4312
+52- for 2
+ nodes time is 29.2728
+53- for 2
+ nodes time is 29.4752
+54- for 2
+ nodes time is 29.8486
+55- for 2
+ nodes time is 29.5826
+56- for 2
+ nodes time is 27.3243
+57- for 2
+ nodes time is 27.5794
+58- for 2
+ nodes time is 29.5337
+59- for 2
+ nodes time is 28.9636
+60- for 2
+ nodes time is 29.6408
+61- for 2
+ nodes time is 29.494
+62- for 2
+ nodes time is 29.5353
+63- for 2
+ nodes time is 29.2306
+64- for 2
+ nodes time is 29.6254
+65- for 2
+ nodes time is 29.9085
+66- for 2
+ nodes time is 28.8332
+67- for 2
+ nodes time is 32.5985
+68- for 2
+ nodes time is 29.2722
+69- for 2
+ nodes time is 28.7875
+70- for 2
+ nodes time is 27.8456
+71- for 2
+ nodes time is 28.1234
+72- for 2
+ nodes time is 29.9129
+73- for 2
+ nodes time is 29.1791
+74- for 2
+ nodes time is 29.1118
+75- for 2
+ nodes time is 29.3355
+76- for 2
+ nodes time is 28.2438
+77- for 2
+ nodes time is 29.0635
+78- for 2
+ nodes time is 29.1294
+79- for 2
+ nodes time is 29.2832
+80- for 2
+ nodes time is 27.8556
+81- for 2
+ nodes time is 28.6237
+82- for 2
+ nodes time is 29.162
+83- for 2
+ nodes time is 30.0003
+84- for 2
+ nodes time is 28.9384
+85- for 2
+ nodes time is 29.215
+86- for 2
+ nodes time is 29.0106
+87- for 2
+ nodes time is 29.5604
+88- for 2
+ nodes time is 30.0532
+89- for 2
+ nodes time is 29.2472
+90- for 2
+ nodes time is 29.7764
+91- for 2
+ nodes time is 29.8424
+92- for 2
+ nodes time is 29.9157
+93- for 2
+ nodes time is 29.499
+94- for 2
+ nodes time is 29.1122
+95- for 2
+ nodes time is 30.0463
+96- for 2
+ nodes time is 29.2739
+97- for 2
+ nodes time is 28.792
+98- for 2
+ nodes time is 29.3852
+99- for 2
+ nodes time is 29.5108
+100- for 2
+ nodes time is 29.4203
+
+the average time is 29.177277 seconds
+ Loop complete
+******************************Loop starts*********************
+10- for 3 nodes time is 31.3996
+20- for 3 nodes time is 29.0102
+30- for 3 nodes time is 31.0115
+40- for 3 nodes time is 30.7845
+50- for 3 nodes time is 31.0133
+60- for 3 nodes time is 30.3916
+70- for 3 nodes time is 30.919
+80- for 3 nodes time is 31.0067
+90- for 3 nodes time is 31.1174
+100- for 3 nodes time is 30.13
+
+the average time is 31.253761 seconds
+ Loop complete
+******************************Loop starts*********************
+10- for 5 nodes time is 33.2419
+20- for 5 nodes time is 36.5365
+30- for 5 nodes time is 33.196
+40- for 5 nodes time is 34.5539
+50- for 5 nodes time is 32.2206
+60- for 5 nodes time is 33.7411
+70- for 5 nodes time is 32.4942
+80- for 5 nodes time is 32.059
+90- for 5 nodes time is 36.4488
+100- for 5 nodes time is 36.9806
+
+the average time is 34.103093 seconds
+ Loop complete
+******************************Loop starts*********************
+
+******************************Loop starts*********************

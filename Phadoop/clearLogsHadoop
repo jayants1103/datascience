@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#for master
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-master-1 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/hadoop*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-master-1 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/yarn*"
+
+#for slave
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave "sudo rm /home/ubuntu/hadoop-2.7.1/logs/hadoop*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave "sudo rm /home/ubuntu/hadoop-2.7.1/logs/yarn*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave "sudo rm -R /home/ubuntu/hadoop-2.7.1/logs/userlogs/*"
+
+#for slave 1
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-1 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/hadoop*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-1 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/yarn*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-1 "sudo rm -R /home/ubuntu/hadoop-2.7.1/logs/userlogs/*"
+
+#for slave 2
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-2 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/hadoop*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-2 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/yarn*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-2 "sudo rm -R /home/ubuntu/hadoop-2.7.1/logs/userlogs/*"
+
+#for slave 3
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-3 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/hadoop*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-3 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/yarn*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-3 "sudo rm -R /home/ubuntu/hadoop-2.7.1/logs/userlogs/*"
+
+#for slave 4
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-4 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/hadoop*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-4 "sudo rm /home/ubuntu/hadoop-2.7.1/logs/yarn*"
+ssh -i ~/.ssh/cloud.key ubuntu@hadoop-slave-4 "sudo rm -R /home/ubuntu/hadoop-2.7.1/logs/userlogs/*"

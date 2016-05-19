@@ -1,0 +1,7 @@
+Safe mode is OFF
+deleting /data in hdfs
+Deleted /data
+Deleted /tmp
+making directories
+putting file in hdfs
+starting the gender count

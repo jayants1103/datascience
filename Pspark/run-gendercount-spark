@@ -1,0 +1,11 @@
+#!/bin/bash
+#running the gender count example on spark
+
+source /home/anshuman/devstack/openrc
+echo "" > /var/www/jproject.ca/docs/Pspark/output.txt
+echo "" > /var/www/jproject.ca/docs/Pspark/output2.txt
+#echo "starting the gender count"
+
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.5 "sudo bash /home/ubuntu/spark-1.5.1/bin/spark-submit --master spark://10.0.0.30:7077 /home/ubuntu/spark-1.5.1/examples/src/main/python/count.py"
+
+#echo "count complete"

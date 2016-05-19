@@ -1,0 +1,412 @@
+File size is 1m records
+0- the time for 5 nodes is 36.8861 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 1m records
+10- the time for 2 nodes is 29.0851 seconds 
+20- the time for 2 nodes is 20.3682 seconds 
+30- the time for 2 nodes is 18.5843 seconds 
+40- the time for 2 nodes is 20.5874 seconds 
+50- the time for 2 nodes is 18.8599 seconds 
+60- the time for 2 nodes is 18.8972 seconds 
+70- the time for 2 nodes is 19.0309 seconds 
+80- the time for 2 nodes is 18.4544 seconds 
+90- the time for 2 nodes is 19.3006 seconds 
+100- the time for 2 nodes is 19.041 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 1m records
+
+****************************Loop Starts**********************
+File size is 1m records
+10- the time for 2 nodes is 18.4924 seconds 
+20- the time for 2 nodes is 18.5076 seconds 
+30- the time for 2 nodes is 19.7932 seconds 
+40- the time for 2 nodes is 19.0307 seconds 
+50- the time for 2 nodes is 18.7111 seconds 
+60- the time for 2 nodes is 19.2353 seconds 
+70- the time for 2 nodes is 18.5117 seconds 
+80- the time for 2 nodes is 18.4474 seconds 
+
+****************************Loop Starts**********************
+File size is 1m records
+
+****************************Loop Starts**********************
+File size is 1m records
+10- the time for 2 nodes is 19.2128 seconds 
+20- the time for 2 nodes is 18.9165 seconds 
+30- the time for 2 nodes is 18.0067 seconds 
+40- the time for 2 nodes is 18.4409 seconds 
+50- the time for 2 nodes is 18.1786 seconds 
+60- the time for 2 nodes is 18.4617 seconds 
+70- the time for 2 nodes is 19.2585 seconds 
+80- the time for 2 nodes is 18.2486 seconds 
+90- the time for 2 nodes is 18.8966 seconds 
+100- the time for 2 nodes is 18.1293 seconds 
+Average time on 2 nodes is18.526495049505 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 1m records
+10- the time for 3 nodes is 21.8965 seconds 
+20- the time for 3 nodes is 22.4184 seconds 
+30- the time for 3 nodes is 21.2495 seconds 
+40- the time for 3 nodes is 21.0753 seconds 
+50- the time for 3 nodes is 21.0379 seconds 
+60- the time for 3 nodes is 22.328 seconds 
+70- the time for 3 nodes is 21.574 seconds 
+80- the time for 3 nodes is 21.2966 seconds 
+90- the time for 3 nodes is 21.8742 seconds 
+100- the time for 3 nodes is 22.236 seconds 
+Average time on 3 nodes is21.703243564356 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 1m records
+10- the time for 4 nodes is 26.1835 seconds 
+20- the time for 4 nodes is 25.8532 seconds 
+30- the time for 4 nodes is 27.4063 seconds 
+40- the time for 4 nodes is 27.0928 seconds 
+50- the time for 4 nodes is 30.4189 seconds 
+60- the time for 4 nodes is 27.1056 seconds 
+70- the time for 4 nodes is 26.1116 seconds 
+80- the time for 4 nodes is 26.4844 seconds 
+90- the time for 4 nodes is 26.4445 seconds 
+100- the time for 4 nodes is 27.6574 seconds 
+Average time on 4 nodes is26.536531683168 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 1m records
+10- the time for 5 nodes is 30.942 seconds 
+20- the time for 5 nodes is 31.0523 seconds 
+30- the time for 5 nodes is 31.5325 seconds 
+40- the time for 5 nodes is 29.6477 seconds 
+50- the time for 5 nodes is 31.5512 seconds 
+60- the time for 5 nodes is 29.3695 seconds 
+70- the time for 5 nodes is 29.5504 seconds 
+80- the time for 5 nodes is 30.1076 seconds 
+90- the time for 5 nodes is 29.7879 seconds 
+100- the time for 5 nodes is 31.0086 seconds 
+Average time on 5 nodes is29.873653465347 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 5m records
+10- the time for 2 nodes is 30.2188 seconds 
+20- the time for 2 nodes is 29.1954 seconds 
+30- the time for 2 nodes is 29.3194 seconds 
+40- the time for 2 nodes is 29.705 seconds 
+50- the time for 2 nodes is 29.2173 seconds 
+60- the time for 2 nodes is 28.934 seconds 
+70- the time for 2 nodes is 28.7999 seconds 
+80- the time for 2 nodes is 29.5907 seconds 
+90- the time for 2 nodes is 29.093 seconds 
+100- the time for 2 nodes is 28.8174 seconds 
+Average time on 2 nodes is28.990021782178 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 5m records
+10- the time for 3 nodes is 35.7299 seconds 
+20- the time for 3 nodes is 35.4917 seconds 
+30- the time for 3 nodes is 34.0947 seconds 
+40- the time for 3 nodes is 35.4462 seconds 
+50- the time for 3 nodes is 35.5433 seconds 
+60- the time for 3 nodes is 35.3026 seconds 
+70- the time for 3 nodes is 34.5773 seconds 
+80- the time for 3 nodes is 34.9291 seconds 
+90- the time for 3 nodes is 34.8233 seconds 
+100- the time for 3 nodes is 34.4153 seconds 
+Average time on 3 nodes is34.803040594059 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 5m records
+10- the time for 4 nodes is 38.5957 seconds 
+20- the time for 4 nodes is 39.2868 seconds 
+30- the time for 4 nodes is 39.7205 seconds 
+40- the time for 4 nodes is 42.2413 seconds 
+50- the time for 4 nodes is 39.1416 seconds 
+60- the time for 4 nodes is 39.9533 seconds 
+70- the time for 4 nodes is 38.8269 seconds 
+80- the time for 4 nodes is 39.0302 seconds 
+90- the time for 4 nodes is 39.2154 seconds 
+100- the time for 4 nodes is 39.0804 seconds 
+Average time on 4 nodes is39.120024752475 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 5m records
+10- the time for 5 nodes is 44.2062 seconds 
+20- the time for 5 nodes is 43.0948 seconds 
+30- the time for 5 nodes is 43.011 seconds 
+40- the time for 5 nodes is 43.6537 seconds 
+50- the time for 5 nodes is 42.0824 seconds 
+60- the time for 5 nodes is 45.5308 seconds 
+70- the time for 5 nodes is 45.3364 seconds 
+80- the time for 5 nodes is 44.0033 seconds 
+90- the time for 5 nodes is 43.8386 seconds 
+100- the time for 5 nodes is 42.9172 seconds 
+Average time on 5 nodes is43.219204950495 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 10m records
+10- the time for 2 nodes is 60.0621 seconds 
+20- the time for 2 nodes is 41.6712 seconds 
+30- the time for 2 nodes is 41.1938 seconds 
+40- the time for 2 nodes is 40.5642 seconds 
+50- the time for 2 nodes is 60.7558 seconds 
+60- the time for 2 nodes is 41.8469 seconds 
+70- the time for 2 nodes is 40.9907 seconds 
+80- the time for 2 nodes is 41.7663 seconds 
+90- the time for 2 nodes is 40.2057 seconds 
+100- the time for 2 nodes is 40.5935 seconds 
+Average time on 2 nodes is41.905504950495 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 10m records
+10- the time for 3 nodes is 43.5898 seconds 
+20- the time for 3 nodes is 42.45 seconds 
+30- the time for 3 nodes is 42.2804 seconds 
+40- the time for 3 nodes is 43.5223 seconds 
+50- the time for 3 nodes is 41.7705 seconds 
+60- the time for 3 nodes is 41.8882 seconds 
+70- the time for 3 nodes is 42.2783 seconds 
+80- the time for 3 nodes is 42.0615 seconds 
+90- the time for 3 nodes is 42.811 seconds 
+100- the time for 3 nodes is 44.9006 seconds 
+Average time on 3 nodes is42.894808910891 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 10m records
+10- the time for 4 nodes is 49.8346 seconds 
+20- the time for 4 nodes is 49.8471 seconds 
+30- the time for 4 nodes is 49.5668 seconds 
+40- the time for 4 nodes is 49.9658 seconds 
+50- the time for 4 nodes is 49.5896 seconds 
+60- the time for 4 nodes is 50.4873 seconds 
+70- the time for 4 nodes is 48.6329 seconds 
+80- the time for 4 nodes is 49.4995 seconds 
+90- the time for 4 nodes is 49.8379 seconds 
+100- the time for 4 nodes is 49.0853 seconds 
+Average time on 4 nodes is49.333362376238 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 10m records
+10- the time for 5 nodes is 56.1114 seconds 
+20- the time for 5 nodes is 55.5709 seconds 
+30- the time for 5 nodes is 54.6247 seconds 
+40- the time for 5 nodes is 54.1178 seconds 
+50- the time for 5 nodes is 55.8653 seconds 
+60- the time for 5 nodes is 55.6794 seconds 
+
+****************************Loop Starts**********************
+File size is 10m records
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 2 nodes is 363.9885 seconds 
+2- the time for 2 nodes is 330.3394 seconds 
+3- the time for 2 nodes is 332.6781 seconds 
+4- the time for 2 nodes is 352.2738 seconds 
+5- the time for 2 nodes is 337.1087 seconds 
+6- the time for 2 nodes is 503.6171 seconds 
+7- the time for 2 nodes is 333.9997 seconds 
+8- the time for 2 nodes is 337.6314 seconds 
+9- the time for 2 nodes is 389.4914 seconds 
+10- the time for 2 nodes is 358.3502 seconds 
+Average time on 2 nodes is330.86166363636 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 3 nodes is 343.6106 seconds 
+2- the time for 3 nodes is 394.7801 seconds 
+3- the time for 3 nodes is 553.7929 seconds 
+4- the time for 3 nodes is 454.377 seconds 
+5- the time for 3 nodes is 345.0969 seconds 
+6- the time for 3 nodes is 366.1237 seconds 
+7- the time for 3 nodes is 372.7101 seconds 
+8- the time for 3 nodes is 353.3035 seconds 
+9- the time for 3 nodes is 337.8529 seconds 
+10- the time for 3 nodes is 345.4315 seconds 
+Average time on 3 nodes is351.55265454545 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 4 nodes is 379.8585 seconds 
+2- the time for 4 nodes is 348.3357 seconds 
+3- the time for 4 nodes is 355.2823 seconds 
+4- the time for 4 nodes is 355.1098 seconds 
+5- the time for 4 nodes is 406.8127 seconds 
+6- the time for 4 nodes is 374.6511 seconds 
+7- the time for 4 nodes is 355.0911 seconds 
+8- the time for 4 nodes is 352.1939 seconds 
+9- the time for 4 nodes is 351.7322 seconds 
+10- the time for 4 nodes is 552.9614 seconds 
+Average time on 4 nodes is348.36624545455 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 5 nodes is 398.3838 seconds 
+2- the time for 5 nodes is 485.2745 seconds 
+3- the time for 5 nodes is 367.9825 seconds 
+4- the time for 5 nodes is 370.0718 seconds 
+5- the time for 5 nodes is 361.6009 seconds 
+6- the time for 5 nodes is 362.0458 seconds 
+7- the time for 5 nodes is 387.1928 seconds 
+8- the time for 5 nodes is 381.622 seconds 
+9- the time for 5 nodes is 397.433 seconds 
+10- the time for 5 nodes is 357.3611 seconds 
+Average time on 5 nodes is351.72438181818 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 2 nodes is 339.4878 seconds 
+2- the time for 2 nodes is 333.6644 seconds 
+3- the time for 2 nodes is 368.1009 seconds 
+4- the time for 2 nodes is 384.0273 seconds 
+5- the time for 2 nodes is 337.5129 seconds 
+6- the time for 2 nodes is 525.8551 seconds 
+7- the time for 2 nodes is 413.0183 seconds 
+8- the time for 2 nodes is 336.6007 seconds 
+9- the time for 2 nodes is 343.5233 seconds 
+10- the time for 2 nodes is 536.6146 seconds 
+11- the time for 2 nodes is 331.7335 seconds 
+12- the time for 2 nodes is 410.2492 seconds 
+13- the time for 2 nodes is 354.0268 seconds 
+14- the time for 2 nodes is 334.7976 seconds 
+15- the time for 2 nodes is 487.7878 seconds 
+16- the time for 2 nodes is 410.853 seconds 
+17- the time for 2 nodes is 419.0354 seconds 
+18- the time for 2 nodes is 339.7255 seconds 
+19- the time for 2 nodes is 332.9093 seconds 
+20- the time for 2 nodes is 337.3517 seconds 
+21- the time for 2 nodes is 336.7836 seconds 
+22- the time for 2 nodes is 334.6082 seconds 
+23- the time for 2 nodes is 333.692 seconds 
+24- the time for 2 nodes is 443.8113 seconds 
+25- the time for 2 nodes is 336.9206 seconds 
+Average time on 2 nodes is378.507632 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 3 nodes is 347.0144 seconds 
+2- the time for 3 nodes is 360.2367 seconds 
+3- the time for 3 nodes is 346.6275 seconds 
+4- the time for 3 nodes is 350.6887 seconds 
+5- the time for 3 nodes is 431.9344 seconds 
+6- the time for 3 nodes is 399.9267 seconds 
+7- the time for 3 nodes is 488.3274 seconds 
+8- the time for 3 nodes is 452.6996 seconds 
+9- the time for 3 nodes is 338.9276 seconds 
+10- the time for 3 nodes is 401.1437 seconds 
+11- the time for 3 nodes is 480.6914 seconds 
+12- the time for 3 nodes is 384.2362 seconds 
+13- the time for 3 nodes is 408.9876 seconds 
+14- the time for 3 nodes is 401.6871 seconds 
+15- the time for 3 nodes is 341.8284 seconds 
+16- the time for 3 nodes is 370.7967 seconds 
+17- the time for 3 nodes is 339.6208 seconds 
+18- the time for 3 nodes is 370.1228 seconds 
+19- the time for 3 nodes is 385.0842 seconds 
+20- the time for 3 nodes is 370.0124 seconds 
+21- the time for 3 nodes is 344.0525 seconds 
+22- the time for 3 nodes is 343.4434 seconds 
+23- the time for 3 nodes is 379.7519 seconds 
+24- the time for 3 nodes is 345.4848 seconds 
+25- the time for 3 nodes is 348.7548 seconds 
+Average time on 3 nodes is381.283268 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 4 nodes is 355.7236 seconds 
+2- the time for 4 nodes is 349.3046 seconds 
+3- the time for 4 nodes is 353.0539 seconds 
+4- the time for 4 nodes is 351.8683 seconds 
+5- the time for 4 nodes is 352.874 seconds 
+6- the time for 4 nodes is 361.3568 seconds 
+7- the time for 4 nodes is 353.0682 seconds 
+8- the time for 4 nodes is 368.5361 seconds 
+9- the time for 4 nodes is 350.6686 seconds 
+10- the time for 4 nodes is 356.6652 seconds 
+11- the time for 4 nodes is 377.8757 seconds 
+12- the time for 4 nodes is 488.2456 seconds 
+13- the time for 4 nodes is 349.0372 seconds 
+14- the time for 4 nodes is 398.5502 seconds 
+15- the time for 4 nodes is 445.4057 seconds 
+16- the time for 4 nodes is 364.4384 seconds 
+17- the time for 4 nodes is 362.8493 seconds 
+18- the time for 4 nodes is 354.5202 seconds 
+19- the time for 4 nodes is 364.62 seconds 
+20- the time for 4 nodes is 354.3181 seconds 
+21- the time for 4 nodes is 452.3428 seconds 
+22- the time for 4 nodes is 354.3703 seconds 
+23- the time for 4 nodes is 391.5733 seconds 
+24- the time for 4 nodes is 400.3267 seconds 
+25- the time for 4 nodes is 353.7027 seconds 
+Average time on 4 nodes is374.61182 seconds 
+
+****************************Loop Complete**********************
+
+****************************Loop Starts**********************
+File size is 140m records
+1- the time for 5 nodes is 488.3362 seconds 
+2- the time for 5 nodes is 473.2073 seconds 
+3- the time for 5 nodes is 366.0587 seconds 
+4- the time for 5 nodes is 366.7226 seconds 
+5- the time for 5 nodes is 490.3709 seconds 
+6- the time for 5 nodes is 362.4643 seconds 
+7- the time for 5 nodes is 363.4117 seconds 
+8- the time for 5 nodes is 380.7696 seconds 
+9- the time for 5 nodes is 379.3073 seconds 
+10- the time for 5 nodes is 362.3633 seconds 
+11- the time for 5 nodes is 355.7781 seconds 
+12- the time for 5 nodes is 382.4472 seconds 
+13- the time for 5 nodes is 364.9682 seconds 
+14- the time for 5 nodes is 364.6109 seconds 
+15- the time for 5 nodes is 366.9235 seconds 
+16- the time for 5 nodes is 366.7869 seconds 
+17- the time for 5 nodes is 365.3737 seconds 
+18- the time for 5 nodes is 364.9354 seconds 
+19- the time for 5 nodes is 362.4129 seconds 
+20- the time for 5 nodes is 385.8188 seconds 
+21- the time for 5 nodes is 369.1373 seconds 
+22- the time for 5 nodes is 374.2719 seconds 
+23- the time for 5 nodes is 368.4453 seconds 
+24- the time for 5 nodes is 371.5227 seconds 
+25- the time for 5 nodes is 389.1068 seconds 
+Average time on 5 nodes is383.42206 seconds 
+
+****************************Loop Complete**********************

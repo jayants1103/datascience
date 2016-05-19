@@ -1,0 +1,98 @@
+#!/bin/bash
+
+source /home/anshuman/devstack/openrc
+#echo "" > /var/www/jproject.ca/docs/hadoop/output.txt
+#echo "" > /var/www/jproject.ca/docs/hadoop/output2.txt
+#slavesInMaster=0
+#slavesInWorker=0
+
+nodes=`cat /var/www/jproject.ca/docs/hadoop/nodes.txt`
+#editing the slaves file as per the requsted # of nodes
+if [ $nodes -eq 1 ]
+then
+#	echo "for value 1"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave > /home/ubuntu/hadoop/etc/hadoop/slaves"
+	nova stop "Hadoop Slave 1"
+	nova stop "Hadoop Slave 2"
+	nova stop "Hadoop Slave 3"
+	nova stop "Hadoop Slave 4"
+	#formatting datanode and namenode
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "printf 'Y' | ./hadoop/bin/hdfs namenode -format"
+	
+elif [ $nodes -eq 2 ]
+then
+#	echo "for value 2"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave > /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-1 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	nova stop "Hadoop Slave 2"
+	nova stop "Hadoop Slave 3"
+	nova stop "Hadoop Slave 4"
+	#formatting datanode and namenode
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "printf 'Y' | ./hadoop/bin/hdfs namenode -format"
+
+elif [ $nodes -eq 3 ]
+then
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave > /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-1 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-2 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	nova stop "Hadoop Slave 3"
+	nova stop "Hadoop Slave 4"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.12 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.12 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "printf 'Y' | ./hadoop/bin/hdfs namenode -format"
+
+elif [ $nodes -eq 4 ]
+then
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave > /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-1 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-2 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-3 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	nova stop "Hadoop Slave 4"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.12 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.12 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.13 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.13 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "printf 'Y' | ./hadoop/bin/hdfs namenode -format"
+elif [ $nodes -eq 5 ]
+then
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave > /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-1 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-2 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-3 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "sudo echo hadoop-slave-4 >> /home/ubuntu/hadoop/etc/hadoop/slaves"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.10 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.11 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.12 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.12 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.13 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.13 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.14 "sudo rm -R /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.14 "sudo mkdir /home/ubuntu/DNfiles"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "printf 'Y' | ./hadoop/bin/hdfs namenode -format"
+fi
+
+#starting the hdfs
+echo "Starting hdfs"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/sbin/start-dfs.sh &"
+
+#starting yarn
+echo "Starting yarn"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/sbin/start-yarn.sh &"
+
+#echo "seems done..."

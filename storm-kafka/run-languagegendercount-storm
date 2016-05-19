@@ -1,0 +1,11 @@
+#!/bin/bash
+#running the gender count example on hadoop
+
+source /home/anshuman/devstack/openrc
+
+echo "" > /var/www/jproject.ca/docs/storm-kafka/output.txt
+echo "" > /var/www/jproject.ca/docs/storm-kafka/output2.txt
+
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.7 "bash /home/ubuntu/storm/bin/storm jar /home/ubuntu/StormLanguageGender.jar jayant.dataanalytics.kafka_consumer_storm.App"
+
+

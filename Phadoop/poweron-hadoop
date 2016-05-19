@@ -1,0 +1,54 @@
+#!/bin/bash
+
+#powering on the machines
+echo "" > /var/www/jproject.ca/docs/Phadoop/nodes.txt
+echo "" > /var/www/jproject.ca/docs/Phadoop/output.txt
+echo "" > /var/www/jproject.ca/docs/Phadoop/output2.txt
+source ~/devstack/openrc
+#echo "starting to power on...master"
+nova start "Hadoop Master 1"
+#echo "starting slave 1"
+nova start "Hadoop Slave"
+#echo "starting slave 2"
+nova start "Hadoop Slave 1"
+nova start "Hadoop Slave 2"
+nova start "Hadoop Slave 3"
+nova start "Hadoop Slave 4"
+
+while ! ping -c1 172.24.42.19 &>/dev/null;
+do
+sleep 2
+done
+echo "Master is up"
+
+while ! ping -c1 172.24.42.10 &>/dev/null;
+do
+sleep 2
+done
+echo "Slave is up"
+
+while ! ping -c1 172.24.42.11 &>/dev/null;
+do
+sleep 2
+done
+echo "Slave 1 is up"
+
+while ! ping -c1 172.24.42.12 &>/dev/null;
+do
+sleep 2
+done
+echo "Slave 2 is up"
+
+while ! ping -c1 172.24.42.13 &>/dev/null;
+do
+sleep 2
+done
+echo "Slave 3 is up"
+
+while ! ping -c1 172.24.42.14 &>/dev/null;
+do
+sleep 2
+done
+echo "Slave 4 is up"
+
+echo "complete" > /var/www/jproject.ca/docs/Phadoop/output2.txt

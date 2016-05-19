@@ -1,0 +1,132 @@
+
+*******************Loop starts********************
+the loop is for 2
+
+Average time for file load is 16.22995
+Average time for job run is 26.77935
+********************Loop Complete*********************
+
+*******************Loop starts********************
+the loop is for 2
+10- time for file load is 16.8407
+10- time for job run is 26.6161
+
+Average time for file load is 17.42441
+Average time for job run is 28.19033
+********************Loop Complete*********************
+
+*******************Loop starts********************
+the loop is for 2 nodes....6 records
+10- time for file load is 16.9205
+10- time for job run is 27.8821
+20- time for file load is 16.7587
+20- time for job run is 26.5355
+30- time for file load is 17.4177
+30- time for job run is 28.2786
+40- time for file load is 20.0001
+40- time for job run is 29.4876
+50- time for file load is 18.574
+50- time for job run is 29.6195
+60- time for file load is 17.158
+60- time for job run is 28.197
+70- time for file load is 18.5001
+70- time for job run is 29.374
+80- time for file load is 16.8122
+80- time for job run is 27.6456
+90- time for file load is 16.9404
+90- time for job run is 27.0351
+100- time for file load is 17.0758
+100- time for job run is 27.4885
+
+Average time for file load is 17.692894
+Average time for job run is 28.147423
+********************Loop Complete*********************
+
+*******************Loop starts********************
+the loop is for 2.....1000 records
+10- time for file load is 18.0851
+10- time for job run is 28.443
+20- time for file load is 16.3586
+20- time for job run is 26.8159
+30- time for file load is 16.5151
+30- time for job run is 27.7061
+40- time for file load is 16.4836
+40- time for job run is 27.1119
+50- time for file load is 17.4469
+50- time for job run is 27.049
+60- time for file load is 16.911
+60- time for job run is 28.0559
+70- time for file load is 18.1056
+70- time for job run is 27.8337
+80- time for file load is 18.8485
+80- time for job run is 28.4042
+90- time for file load is 18.0513
+90- time for job run is 28.4961
+100- time for file load is 18.023
+100- time for job run is 28.2082
+
+Average time for file load is 17.230768
+Average time for job run is 27.76034
+********************Loop Complete*********************
+
+*******************Loop starts********************
+the loop is for 2
+
+*******************Loop starts********************
+the loop is for 2
+10- time for file load is 18.1078
+10- time for job run is 29.2245
+20- time for file load is 18.6102
+20- time for job run is 29.2452
+30- time for file load is 18.4164
+30- time for job run is 30.4149
+40- time for file load is 16.0382
+40- time for job run is 26.4241
+50- time for file load is 16.8675
+50- time for job run is 26.774
+60- time for file load is 16.4926
+60- time for job run is 28.0625
+70- time for file load is 16.5598
+70- time for job run is 27.4109
+80- time for file load is 16.9756
+80- time for job run is 26.8683
+90- time for file load is 17.5532
+90- time for job run is 27.057
+100- time for file load is 17.2439
+100- time for job run is 27.9027
+
+Average time for file load is 17.374499
+Average time for job run is 27.743247
+********************Loop Complete*********************
+
+*******************Loop starts********************
+the loop is for 2
+10- time for file load is 17.1336
+10- time for job run is 28.7665
+
+*******************Loop starts********************
+the loop is for 2
+10- time for file load is 32.2954
+10- time for job run is 69.7936
+20- time for file load is 31.4308
+20- time for job run is 73.8377
+30- time for file load is 34.2403
+30- time for job run is 72.4264
+40- time for file load is 32.643
+40- time for job run is 60.2781
+50- time for file load is 32.3208
+50- time for job run is 62.7405
+60- time for file load is 35.4786
+60- time for job run is 63.8127
+70- time for file load is 41.2105
+70- time for job run is 64.1909
+80- time for file load is 31.9312
+80- time for job run is 74.3035
+90- time for file load is 34.6739
+90- time for job run is 63.7129
+100- time for file load is 32.3832
+100- time for job run is 74.3344
+
+Average time for file load is 33.496883
+Average time for job run is 70.626946
+********************Loop Complete*********************

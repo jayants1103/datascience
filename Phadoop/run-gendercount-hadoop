@@ -1,0 +1,23 @@
+#!/bin/bash
+#running the gender count example on hadoop
+
+source /home/anshuman/devstack/openrc
+
+#echo "" > /var/www/jproject.ca/docs/hadoop/output.txt
+#echo "" > /var/www/jproject.ca/docs/hadoop/output2.txt
+
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/bin/hadoop dfsadmin -safemode leave"
+echo "deleting /data in hdfs"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/bin/hadoop fs -rmr /data"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/bin/hadoop fs -rmr /tmp"
+echo "making directories"
+#making directory in hdfs
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/bin/hadoop fs -mkdir -p /data"
+echo "putting file in hdfs"
+#putting file in hdfs
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop/bin/hadoop fs -put /home/ubuntu/data/sample_70m.txt /data/small.txt"
+echo "starting the gender count"
+#running the example
+#ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.19 "bash /home/ubuntu/hadoop-2.7.1/bin/hadoop jar /home/ubuntu/jars/gendercounthadoop.jar genderCount /data/small.txt /data/output"
+
+

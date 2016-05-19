@@ -1,0 +1,80 @@
+#!/bin/bash
+
+source /home/anshuman/devstack/openrc
+
+#start zookeeper
+echo "Starting Zookeeper"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.8 "bash /home/ubuntu/zookeeper/bin/zkServer.sh start"
+sleep 5
+
+#start kafka server
+echo "Starting Kafka server"
+bash /var/www/jproject.ca/docs/storm-kafka/startKafkaServer.sh &
+
+while ! nc -w 1 172.24.42.20 9092
+do
+	sleep 2
+done
+
+echo "Kafka server is now up"
+sleep 1
+
+#start nimbus
+echo "Starting Nimbus"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.7 "bash /home/ubuntu/storm/bin/storm nimbus" &
+while ! nc -w 1 172.24.42.7 6627
+do
+	sleep 2
+done
+echo "Nimbus is now up"
+echo "Staring Storm UI"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.7 "bash /home/ubuntu/storm/bin/storm ui" &
+while ! nc -w 1 172.24.42.7 8080
+do
+	sleep 2
+done
+echo "Storm UI is now up"
+
+nodes=`cat /var/www/jproject.ca/docs/storm-kafka/nodes.txt`
+#editing the slaves file as per the requsted # of nodes
+
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "sudo rm /home/ubuntu/storm/conf/storm.yaml"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "cp /home/ubuntu/storm/conf/backupstorm.yaml /home/ubuntu/storm/conf/storm.yaml"
+if [ $nodes -eq 1 ]
+then
+#	echo "for value 1"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '   - 6700' >> /home/ubuntu/storm/conf/storm.yaml"
+	
+elif [ $nodes -eq 2 ]
+then
+#	echo "for value 2"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6700' >> /home/ubuntu/storm/conf/storm.yaml"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6701' >> /home/ubuntu/storm/conf/storm.yaml"
+
+elif [ $nodes -eq 3 ]
+then
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6700' >> /home/ubuntu/storm/conf/storm.yaml"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6701' >> /home/ubuntu/storm/conf/storm.yaml"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6702' >> /home/ubuntu/storm/conf/storm.yaml"
+
+elif [ $nodes -eq 4 ]
+then
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6700' >> /home/ubuntu/storm/conf/storm.yaml"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6701' >> /home/ubuntu/storm/conf/storm.yaml"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6702' >> /home/ubuntu/storm/conf/storm.yaml"
+	ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6703' >> /home/ubuntu/storm/conf/storm.yaml"
+elif [ $nodes -eq 5 ]
+then
+        ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6700' >> /home/ubuntu/storm/conf/storm.yaml"
+        ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6701' >> /home/ubuntu/storm/conf/storm.yaml"
+        ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6702' >> /home/ubuntu/storm/conf/storm.yaml"
+        ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6703' >> /home/ubuntu/storm/conf/storm.yaml"	
+        ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "echo '    - 6704' >> /home/ubuntu/storm/conf/storm.yaml"
+fi
+
+#starting the hdfs
+echo "Starting supervisor"
+ssh -i ~/.ssh/cloud.key ubuntu@172.24.42.17 "bash /home/ubuntu/storm/bin/storm supervisor" &
+sleep 15
+echo "complete" > /var/www/jproject.ca/docs/storm-kafka/output2.txt
+echo "complete"

@@ -1,0 +1,4 @@
+Request to start server worker1 has been accepted.
+Request to start server worker2 has been accepted.
+Worker 1 is up
+Worker 2 is up
